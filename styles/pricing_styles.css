@@ -1,0 +1,104 @@
+body{
+background: #F5F5F5;
+}
+.pricing{
+width: 1170px;
+margin: 0 auto;
+background: #F5F5F5;
+}
+.pricing__main-text{
+font-style: normal;
+width: 100%;
+height: 120px;
+font-family: Raleway;
+font-size: 36px;
+font-weight: 400;
+line-height: 42.26px;
+letter-spacing: 0em;
+text-align: center;
+background-color: #F5F5F5; 
+}
+.pricing__section{
+    display: flex;
+    justify-content: space-between;
+}
+.pricing__line{
+width: 170px;
+height: 0px;
+border: 1px solid #EC7979;
+margin-inline: 510px;
+margin-bottom: 32px;
+}
+.pricing__main-block{
+background: #F5F5F5;   
+}
+.pricing__section-block{
+width: 370px;
+text-align: center;    
+display: inline-block;
+}
+.pricing__section-block-optima{
+    position: relative;
+    bottom: 20px;
+box-shadow: 0px 4px 10px 0px #33333333;
+width: 370px;
+text-align: center;    
+display: inline-block;
+border: 2px solid #F5F5F5
+}
+.pricing__subtitle{
+height: 59px;
+width: 100%;
+font-family: Raleway;
+font-style: normal;
+font-size: 18px;
+font-weight: 400;
+line-height: 21.13px;
+letter-spacing: 0em;
+text-align: center;
+color: #86878B;
+}
+.pricing__section-block-name{
+height: 60px;
+background-color: #333333;
+color: #FFFFFF;
+border: 2px solid #F5F5F5;
+line-height: 55px;
+font-family: Open Sans;
+font-style: normal;
+font-size: 24px;
+font-weight: 700;
+}
+.pricing__section-block-price{
+height: 100px;
+background: #333333;
+border: 2px solid #F5F5F5;
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 89px;
+color: #FFFFFF;
+}
+.pricing__section-block-text{
+height: 50px;
+background-color: #333333;
+color: rgba(255, 255, 255, 0.5);
+border: 2px solid #F5F5F5;
+line-height: 44px;
+font-family: 'Raleway';
+font-style: normal;
+font-size: 18px;
+font-weight: 400;
+}
+.pricing__section-block-space{
+color: #86878B;
+height: 50px;
+border: 2px solid #F5F5F5;
+line-height: 44px;
+font-family: 'Raleway';
+font-style: normal;
+font-size: 18px;
+font-weight: 400; 
+background-color: white;
+}

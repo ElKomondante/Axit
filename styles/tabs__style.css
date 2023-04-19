@@ -1,0 +1,112 @@
+.nav{
+    margin: 0 auto;
+width: 1170px;
+height: 40px;
+display: flex;
+}
+.tabs-nav__tabs1{
+box-sizing: border-box;
+display: flex;
+justify-content: center;
+align-items: center;
+width: 172px;
+height: 40px;
+left: 8px; 
+border: 1px solid #C6CBCD;
+border-radius: 5px 5px 0px 0px;
+border-bottom: 0px;
+font-family: 'Open Sans', sans-serif;
+font-size: 14px;
+}
+.tabs-nav__tabs2{
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 0px;
+width: 156.01px;
+height: 40px;
+left: 180px;
+font-family: 'Open Sans', sans-serif;
+font-size: 14px;
+border-bottom:1px solid #C6CBCD;
+
+
+}
+.tabs-nav__tabs3{
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 0px;
+width: 156.01px;
+height: 40px;
+left: 336px;  
+font-family: 'Open Sans', sans-serif;
+font-size: 14px;
+border-bottom:1px solid #C6CBCD; 
+}
+.tabs-nav__tabs-empty{
+display: flex;
+padding: 0px;
+width: 508.72px;
+height: 40px;
+left: 490px;
+border-bottom:1px solid #C6CBCD; 
+} 
+.tabs-main{
+    display: flex;
+margin: 0 auto;
+box-sizing: border-box;
+width: 1170px;
+height: 386px;
+border: 1px solid #C6CBCD;
+border-top: 0px;
+}
+.tabs-main__left{
+margin: 0 auto;
+}
+.tabs-main__right{
+width: 580px;
+display: inline-block;
+}
+.tabs-main__left-text{
+margin-left: 85px;
+display: inline-block;
+left: 100px;
+font-family: 'Open Sans', sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 30px;
+line-height: 40.85px;
+align-items: center;
+color: #000000; 
+}
+.tabs-main__left-description{
+display: inline-block;
+margin-left: 85px;
+font-family: 'Raleway', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 21.13px;
+color: #000000;
+}
+.tabs-main__left-button{
+display: inline-block;
+margin-top: -17px;
+margin-left: 85px;
+height: 58px;
+width: 231px;
+left: 100px;
+background: #EC7979;
+font-family: 'Open Sans', sans-serif;
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 55px;
+text-align: center;
+color: #FFFFFF;
+}
+.tabs-main__right-image{
+height: 385px;
+border-radius: 0px;
+}
