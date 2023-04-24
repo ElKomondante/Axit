@@ -1,0 +1,120 @@
+
+.customers{
+width: 1170px;
+height: 665px;
+margin: 0 auto;
+}
+.main-text{
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 28px;
+border: 4px solid rgb(255, 255, 255); 
+width: 100%;
+height: 120px;
+}
+.customers__line{
+width: 142px;
+height: 0px;
+border: 1px solid #EC7979;
+margin-inline: 510px;
+margin-bottom: 32px;
+}
+.customers__section-block{
+width: 370px;
+height: 336px;  
+display: inline-block;
+border-radius: 10px;
+text-align: center;
+}
+
+.customers__section-block__main-text{
+height: 82px;
+font-family: Open Sans;
+font-size: 24px;
+font-weight: 700;
+line-height: 32.68px;
+letter-spacing: 0em;
+margin-top: 40px;
+}
+
+.customers__main-text{
+height: 120px;
+width: 100%;
+font-family: Raleway;
+font-size: 36px;
+font-weight: 400;
+line-height: 42.26px;
+text-align: center;
+}
+.customers__section-block__text{
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 21px;
+display: flex;
+align-items: center;
+text-align: center;
+background-color:  #E2E2E2;
+color: #86878B;
+width: 370px;
+height: 180px;
+border-radius: 10px;
+}
+.customers__subtitle{
+height: 16px;
+width: 100%;
+font-family: Raleway;
+font-style: normal;
+font-size: 18px;
+font-weight: 400;
+line-height: 21.13px;
+letter-spacing: 0em;
+text-align: center;
+color: #86878B;
+}
+.customers__section{
+justify-content: space-between;
+display: flex;
+margin-top: 83px;
+}
+.customers__section-block__polygon{
+display:flex;
+width: 35px;
+height: 25px;
+left: 10px;
+background: #E2E2E2;
+transform: rotate(135deg);
+margin-left: 65px;
+margin-top: -36px;
+}
+.customers__section-block__ellipse{
+margin-top: 66px;
+display: inline-block;
+margin-left: -270px;
+}
+h4{
+display: flex;
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 33px;
+color: #000000;
+margin-top: -70px;
+margin-left: 115px;
+}
+h5{
+display: flex;
+width: 270px;
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 21px;
+color: #000000;
+margin-top: -20px;
+margin-left: 115px;
+}
