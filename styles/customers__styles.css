@@ -3,6 +3,7 @@
 width: 1170px;
 height: 665px;
 margin: 0 auto;
+margin-top: 180px;
 }
 .main-text{
 font-family: 'Raleway';
@@ -95,7 +96,7 @@ margin-top: 66px;
 display: inline-block;
 margin-left: -270px;
 }
-h4{
+.customers__section-block__name{
 display: flex;
 font-family: 'Open Sans';
 font-style: normal;
@@ -106,9 +107,8 @@ color: #000000;
 margin-top: -70px;
 margin-left: 115px;
 }
-h5{
+.customers__section-block__job{
 display: flex;
-width: 270px;
 font-family: 'Raleway';
 font-style: normal;
 font-weight: 400;
