@@ -33,14 +33,11 @@ text-align: center;
 
 color: #86878B;
 }
-.contactus_left{
+.contactus_form_left{
     display: inline-block;
     margin-top: 10px;
     width: 48%;
     height: 200px;
-}
-br{
-    margin-top: 20px;
 }
 #name{
     width: 100%;
@@ -49,6 +46,8 @@ br{
     border-right: 0px;
     border-bottom: 1px solid #BDBDBD;;
     background-color: #F5F5F5;
+    margin-top: 89px;
+    padding: 10px;
 }
 #email{
     width: 100%;
@@ -58,6 +57,8 @@ br{
     border-right: 0px;
     border-bottom: 1px solid #BDBDBD;;
     background-color: #F5F5F5;
+    margin-top: 85px;
+    padding: 10px;
 }
 #password{
     width: 100%;
@@ -66,47 +67,42 @@ br{
     border-right: 0px;
     border-bottom: 1px solid #BDBDBD;;
     background-color: #F5F5F5;
+    margin-top: 85px;
+    padding: 10px;
 }
-.contactus_right{
+.contactus_form_right{
     margin-left: 590px;
     width: 48%;
     height: 200px;
     margin-top: -302px;
 }
 #message{
-    width: 100%;
-    height: 200px;
     border-top: 0px;
     border-left: 0px;
     border-right: 0px;
     border-bottom: 1px solid #BDBDBD;;
     background-color: #F5F5F5;
-}
-form{
-    height: 192px;
-    margin-top: 20px;
-}
-h7{
-margin-top: 43px;
-display: flex;
-font-family: 'Open Sans';
+    margin-top: 33px;
+    padding: 10px;
+    font-family: 'Open Sans';
 font-style: normal;
 font-weight: 400;
 font-size: 14px;
 line-height: 19px;
-display: flex;
-align-items: center;
-color: #BDBDBD;
 }
-.contactus_button{
+form{
+    margin-top: 20px;
+}
+
+.contactus_form_button{
     width: 370px;
     height: 58px;
     background: #EC7979;
     display: flex;
     margin: 0 auto;
-    margin-top: 110px;
+    margin-top: 150px;
 }
-.contactus_button_text{
+.contactus_form_button_text{
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 600;
@@ -115,4 +111,9 @@ color: #BDBDBD;
     align-items: center;
     color: #FFFFFF;
     margin: 0 auto;
+    background-color: #EC7979;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 0px;
 }

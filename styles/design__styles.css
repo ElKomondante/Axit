@@ -1,8 +1,9 @@
 .design{
-    width: 100%;
+width: 100%;
 height: 442px;
-background-image: url(/img/image.png); 
 background-size: cover;
+background-image: linear-gradient(to top,rgba(0,0,0,0.5),rgba(0,0,0,0.5)),
+url('../img/image.png');
 }
 
 .design_container{
@@ -13,7 +14,41 @@ height: 100%;
 .design_container_text{
     display: flex;
     width: 1170px;
-    height: 150px;
-    margin-top: 50px;
-    color: aqua;
+    height: 110px;
+    padding: 50px;
+    color: #FFFFFF;
+    justify-content: center;
+    font-family: 'Raleway';
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 42px;
+}
+.design_container_subtitle{
+width: 1170px;
+height: 21px;
+margin-bottom: 10px;
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 21px;
+text-align: center;
+color: #FFFFFF;
+}
+.design_container_button{
+    display: flex;
+    width: 378px;
+    height: 58px;
+    margin: 0 auto;
+    color: white;
+    border: 1px solid white;
+    justify-content: center;
+    align-items: center;
+    margin-top: 73px;
+    font-family: 'Open Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 25px;
 }

@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="/styles/footer_style.css">
     <link rel="stylesheet" href="/styles/design__styles.css">
     <link rel="stylesheet" href="/styles/contactus_styles.css">
+    <link rel="stylesheet" href="/styles/banner__style.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -209,7 +210,9 @@
 <!-- 8 block -->
 <div class="design">
     <div class="design_container">
-    <div class="design_container_text"></div>
+    <div class="design_container_text">STYLISH AXURE DESIGN</div>
+    <div class="design_container_subtitle">Use the sections you need, remove the ones you don't.  Create gorgeous prototypes faster than ever!</div>
+    <div class="design_container_button">Download</div>
 </div> 
 </div> 
 
@@ -222,25 +225,52 @@
 <h1 class="contactus_main_text">CONTACT US</h1>
 <div class="contactus_line"></div>
 <h2 class="contactus_subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
-<div class="contactus_left">
-    <form>
-        <h7>Name</h7><br>
-        <input type="text" name="Name" id="name" ><br>
-        <h7>Email</h7><br>
-        <input type="email" name="email" id="email" ><br>
-        <h7>Password</h7><br>
-        <input type="password" name="password" id="password" ><br>
-    </form>
+<form class="contactus_form">
+<div class="contactus_form_left">
+        <input type="text" placeholder="Name" id="name" >
+        <input type="email" placeholder="Email" id="email">
+        <input type="password" placeholder="Password" id="password" >
 </div>
-<div class="contactus_right">
-    <form>
-    <h7>Message</h7><br>
-    <textarea name="message" cols="74" rows="6" id="message" style="height: 218px; width: 552px;"></textarea>
-    </form>
+<div class="contactus_form_right">
+    <textarea placeholder="Message" cols="74" rows="6" id="message" style="height: 258px; width: 523px;"></textarea>
 </div>
-<div class="contactus_button">
-    <div class="contactus_button_text">Send Message</div>
+<div class="contactus_form_button">
+    <button type="submit" class="contactus_form_button_text">Send Message</button>
 </div>
 </div>
+</form>
+
+
+<!-- 10 block -->
+<div class="banner">
+    <div class="banner_container">
+        <div class="banner_container_left">
+        <img src="/img/logo (1).png" class="banner_container_left_logo">
+        <div class="banner_container_left_text">MODERN AXURE TEMPLATE FOR BEAUTIFUL PROTOTYPES</div>
+        <div class="banner_container_left_line"></div>
+        <div class="banner_container_left_subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit</div>
+        <div class="banner_container_left_button">Download</div>
+</div>
+<div class="banner_container_right">
+    <div class="banner_container_right_text">Try Your FREE Trial Today</div>
+    <div class="banner_container_right_form">
+        <input type="text" placeholder="Name" id="form" >
+        <input type="email" placeholder="Email" id="form">
+        <input type="text" placeholder="Password" id="form">
+</div>
+<div class="banner_container_right_button">
+<button type="submit" class="banner_container_button">Get Started</button>
+</div>
+</div>
+
+
+
+</div>
+</div>
+
+
+
+
+
 </body>
 </html>
