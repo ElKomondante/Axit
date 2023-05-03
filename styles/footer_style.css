@@ -1,0 +1,19 @@
+.footer{
+    background-color: black;
+    height: 164px;
+    display: flex;
+}
+.footer_main{
+width: 650px;
+justify-content: space-between;
+margin: 0 auto;
+margin-top: 41px;
+}
+.footer_main_icons{
+    margin-left: 50px;
+}
+.footer_main_text{
+    color: rgba(255, 255, 255, 0.5);
+text-align: center;
+margin-top: 32px;
+}

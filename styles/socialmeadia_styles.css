@@ -1,0 +1,39 @@
+.social_media{
+height: 140px;
+background-color: #F8EFEF;;
+}
+.social_media_main{
+width: 1170px;
+margin: 0 auto;
+}
+.social_media_main_left{
+    display: inline-block;
+    width: 470px;
+    height: 140px;
+}
+.social_media_main_text{
+    display: inline-block;
+width: 470px;
+height: 18px;
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 33px;
+color: #333333;
+}
+.social_media_main_content{
+display: inline-block;
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 21px;
+color: #86878B;
+}
+.social_media_main_icons{
+margin-left: 38px;
+}
+.social_media_main_right{
+display: inline-block;
+}

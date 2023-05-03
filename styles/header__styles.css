@@ -1,0 +1,30 @@
+.header{
+    width: 100%px;
+    height: 76px;
+    background-color: black;
+    margin: 0 auto;
+    display: flex;
+}
+.header_logo{
+    margin-left: 115px;
+}
+.header_menu{
+    width: 570px;
+    height: 75px;
+    display: flex;
+    margin-left: 770px;
+}
+.header_menu_nav{
+color: white;
+margin-top: 25px;
+width: 113px;
+height: 75px;
+display: flex;
+justify-content: space-around;
+vertical-align: middle;
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 19px;
+}
