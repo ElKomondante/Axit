@@ -3,6 +3,7 @@
 width: 1170px;
 height: 40px;
 display: flex;
+margin-top: 110px;
 }
 .tabs-nav__tabs1{
 box-sizing: border-box;

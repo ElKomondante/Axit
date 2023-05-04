@@ -3,8 +3,11 @@ width: 100%;
 height: 1026px;
 background-image: linear-gradient(to top,rgba(0,0,0,0.5),rgba(0,0,0,0.5)),
 url('../img/image\ \(2\).png');
-margin-top: 100px;
 background-size: 100%;
+background-repeat: no-repeat;
+background-position: center center;
+background-size: cover;
+background-attachment: scroll;
 }
 .banner_container{
     width: 1170px;
@@ -68,7 +71,7 @@ font-size: 18px;
 line-height: 25px;
 color: #FFFFFF;
 }
-.banner_container_right{
+.form{
     width: 470px;
     height: 450px;
     margin-top: 208px;
@@ -76,7 +79,7 @@ color: #FFFFFF;
     border-radius: 10px;
     margin-left: 30px;
 }
-.banner_container_right_text{
+.form_text{
     height: 90px;
     font-family: 'Open Sans';
     font-style: normal;
@@ -90,7 +93,7 @@ color: #FFFFFF;
     color: #333333;
     justify-content: center;
 }
-.banner_container_right_form{
+.form_form{
 width: 370px;
 height: 140px;
 margin: 0 auto;
@@ -111,23 +114,16 @@ font-weight: 400;
 font-size: 14px;
 line-height: 19px;
 }
-.banner_container_right_button{
+.form_container_button{
 width: 470px;
-height: 60px;
-margin-top: 115px;
+margin-top: 74px;
+margin-left: -50px;
 background: #EC7979;
 border-radius: 0px 0px 10px 10px;
-} 
-.banner_container_button{
-display: flex;
-margin: 0 auto;
 font-family: 'Open Sans';
 font-style: normal;
 font-weight: 600;
 font-size: 15px;
-line-height: 20px;
-align-items: center;
-text-align: center;
 color: #FFFFFF;
 height: 55px;
 background-color: #EC7979;
