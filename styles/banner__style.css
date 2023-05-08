@@ -9,13 +9,53 @@ background-position: center center;
 background-size: cover;
 background-attachment: scroll;
 }
+
+@media (max-width:1250px) {
+    .banner{
+        width: 100%;
+    }
+}
 .banner_container{
     width: 1170px;
     margin: 0 auto;
     display: flex;
 }
+
+@media (max-width:1250px) {
+    .banner_container{
+        width: 100%;
+    }
+}
+
+@media (max-width:1050px) {
+    .banner_container{
+        width: 100%;
+display: inline-block;
+    }
+}
+.banner_container_left{
+    margin: 0 auto;
+}
+
+@media (max-width:1250px) {
+    .banner_container_left{
+        margin-left: 100px;
+    }
+}
+
+@media (max-width:1050px) {
+    .banner_container_left{
+        margin-left: 1px;
+    }
+}
 .banner_container_left_logo{
     margin-top: 231px;
+}
+
+@media (max-width:1050px) {
+    .banner_container_left_logo{
+        display: none;
+    }
 }
 .banner_container_left_text{
 width: 670px;
@@ -28,21 +68,53 @@ line-height: 56px;
 color: #FFFFFF;
 margin-top: 72px;
 }
+
+@media (max-width:1250px) {
+    .banner_container_left_text{
+        width: 454px;
+        font-size: 36px;
+line-height: 42px;
+    }
+}
+@media (max-width:1050px) {
+    .banner_container_left_text{
+        width: 95%;
+        margin: 0 auto;
+        margin-top: 50px;
+        font-size: 36px;
+        line-height: 42px;
+        align-items: center;
+text-align: center;
+text-transform: uppercase;
+
+    }
+}
+
+
 .banner_container_left_line{
 width: 170px;
 height: 0px;
 border: 1px solid #FFFFFF;
 margin-top: 55.12px;
 }
+
+@media (max-width:1250px) {
+    .banner_container_left_line{
+        margin-top: 35px;
+    }
+}
+@media (max-width:1050px) {
+    .banner_container_left_line{
+        width: 90%;
+    margin: 0 auto;
+    margin-top: 50px;
+    }
+}
+
+
 .banner_container_left_subtitle{
 width: 270px;
 margin-top: 42px;
-color: #FFFFFF;
-font-family: 'Raleway';
-font-style: normal;
-font-weight: 400;
-font-size: 18px;
-line-height: 21px;
 font-family: 'Raleway';
 font-style: normal;
 font-weight: 400;
@@ -50,19 +122,31 @@ font-size: 18px;
 line-height: 21px;
 color: #FFFFFF;
 }
+
+@media (max-width:1250px) {
+    .banner_container_left_subtitle{
+        font-size: 14px;
+        line-height: 16px; 
+        width: 183px;     
+    }
+}
+
+@media (max-width:1050px) {
+    .banner_container_left_subtitle{
+        margin: 0 auto;
+        width: 90%;    
+        text-align: center;
+        margin-top: 42px;
+    }
+}
+
 .banner_container_left_button{
 width: 270px;
 height: 58px;
 border: 2px solid #FFFFFF;
-font-family: 'Open Sans';
-font-style: normal;
-font-weight: 600;
-font-size: 18px;
-line-height: 25px;
 display: flex;
 align-items: center;
 justify-content: center;
-color: #FFFFFF;
 margin-top: 42px;
 font-family: 'Open Sans';
 font-style: normal;
@@ -70,6 +154,21 @@ font-weight: 600;
 font-size: 18px;
 line-height: 25px;
 color: #FFFFFF;
+}
+
+@media (max-width:1250px) {
+    .banner_container_left_button{
+        width: 183px;
+        height: 50px;
+    }
+}
+@media (max-width:1050px) {
+    .banner_container_left_button{
+        margin: 0 auto;
+        width: 90%;    
+        text-align: center;
+        margin-top: 42px;
+    }
 }
 .form{
     width: 470px;
@@ -79,6 +178,22 @@ color: #FFFFFF;
     border-radius: 10px;
     margin-left: 30px;
 }
+
+@media (max-width:1250px) {
+    .form{
+        margin-right: 30px;
+        width: 398px;
+    }
+}
+@media (max-width:1050px) {
+    .form{
+        margin: 0 auto;
+        width: 90%;    
+        text-align: center;
+        margin-top: 56px;
+    }
+}
+
 .form_text{
     height: 90px;
     font-family: 'Open Sans';
@@ -98,6 +213,14 @@ width: 370px;
 height: 140px;
 margin: 0 auto;
 margin-top: 45px;
+}
+@media (max-width:1050px) {
+    .form_form{
+        margin: 0 auto;
+        width: 90%;    
+        text-align: center;
+        margin-top: 56px;
+    }
 }
 #form{
 width: 100%;
@@ -131,4 +254,20 @@ border-top: 0px;
 border-left: 0px;
 border-right: 0px;
 border-bottom: 0px;
+}
+
+@media (max-width:1250px) {
+    .form_container_button{
+        margin-right: 30px;
+        width: 398px;
+        margin-left: -14px;
+    }
+}
+@media (max-width:1050px) {
+    .form_container_button{
+        margin: 0 auto;
+        width: 100%;    
+        text-align: center;
+        margin-top: 56px;
+    }
 }

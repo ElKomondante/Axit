@@ -1,8 +1,12 @@
 .contactus{
     width: 1170px;
-    height: 662px;
     margin: 0 auto;
     margin-top: 50px;
+}
+@media (max-width:1200px) {
+    .contactus{
+        width: 100%;
+    }
 }
 .contactus_main_text{
 width: 1170px;
@@ -15,6 +19,15 @@ font-style: normal;
 font-weight: 400;
 font-size: 36px;
 }
+@media (max-width:1200px) {
+    .contactus_main_text{
+        font-weight: 700;
+        font-size: 24px;
+        height: 120px;
+        width: 100%;
+    }
+}
+
 .contactus_line{
     width: 170px;
     margin: 0 auto;
@@ -30,14 +43,25 @@ font-family: 'Raleway';
 font-style: normal;
 font-weight: 400;
 text-align: center;
-
 color: #86878B;
+}
+@media (max-width:1200px) {
+    .contactus_subtitle{
+        font-size: 14px;
+        line-height: 16px;
+        width: 100%;
+    }
 }
 .contactus_form_left{
     display: inline-block;
     margin-top: 10px;
     width: 48%;
     height: 200px;
+}
+@media (max-width:1200px) {
+    .contactus_form_left{
+        width: 95%;
+    }
 }
 #name{
     width: 100%;
@@ -73,9 +97,25 @@ color: #86878B;
 .contactus_form_right{
     margin-left: 590px;
     width: 48%;
-    height: 200px;
+    
     margin-top: -302px;
 }
+@media (max-width:1200px) {
+    .contactus_form_right{
+        display:none;
+    }
+}
+
+.contactus_form_right1{
+        display:none;
+}
+@media (max-width:1200px) {
+    .contactus_form_right1{
+        display:block;
+        margin-top: 30px;
+    }
+}
+
 #message{
     border-top: 0px;
     border-left: 0px;
@@ -93,7 +133,12 @@ line-height: 19px;
 form{
     margin-top: 20px;
 }
-
+@media (max-width:1200px) {
+    form{
+        width: 95%;
+        margin: 0 auto;
+    }
+}
 .contactus_form_button{
     width: 370px;
     height: 58px;
@@ -101,6 +146,12 @@ form{
     display: flex;
     margin: 0 auto;
     margin-top: 150px;
+}
+@media (max-width:1200px) {
+    .contactus_form_button{
+        width: 60%;
+        margin-top: 50px;
+    }
 }
 .contactus_form_button_text{
     font-family: 'Open Sans';

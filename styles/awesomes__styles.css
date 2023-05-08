@@ -1,8 +1,13 @@
 .about{
 width: 1170px;
-height: 665px;
+/* height: 665px; */
 margin: 0 auto;
 margin-top: 100px;
+}
+@media (max-width:1200px) {
+    .about{
+        width: 100%;
+    }
 }
 .main-text{
 font-family: 'Raleway';
@@ -20,6 +25,7 @@ height: 0px;
 border: 1px solid #EC7979;
 margin-inline: 510px;
 margin-bottom: 32px;
+margin: 0 auto;
 }
 .subtitle{
 font-family: 'Raleway';
@@ -40,6 +46,14 @@ height: 310px;
 text-align: center;    
 display: inline-block
 }
+@media (max-width:1050px) {
+    .about__section-block{
+        display: block;
+        margin: auto;
+        margin-top: 100px;
+        width: 50%;
+    }
+}
 .about__section-block__img{
 height: 147px;
 left: 103px;
@@ -56,7 +70,17 @@ line-height: 32.68px;
 letter-spacing: 0em;
 margin-top: 40px;
 }
-
+@media (max-width:1250px) {
+    .about__section-block__main-text{
+        font-size: 18px;
+        line-height: 25px;
+    }
+}
+@media (max-width:1050px) {
+    .about__section-block__main-text{
+        margin-top: -10px;
+    }
+}
 .about__main-text{
 height: 120px;
 width: 100%;
@@ -66,8 +90,14 @@ font-weight: 400;
 line-height: 42.26px;
 letter-spacing: 0em;
 text-align: center;
-
 }
+@media (max-width:1250px) {
+    .about__main-text{
+        font-size: 24px;
+        line-height: 28px;
+    }
+}
+
 .about__section-block__text{
 font-family: 'Raleway';
 font-style: normal;
@@ -79,6 +109,12 @@ align-items: center;
 text-align: center;
 color: #000000;
 }
+@media (max-width:1250px) {
+    .about__section-block__text{
+        font-size: 14px;
+        line-height: 16px;      
+    }
+}
 .about__subtitle{
 height: 16px;
 width: 100%;
@@ -88,4 +124,11 @@ font-weight: 400;
 line-height: 21.13px;
 letter-spacing: 0em;
 text-align: center;
+margin-top: 32px;
+}
+@media (max-width:1250px) {
+    .about__subtitle{
+        font-size: 14px;
+        line-height: 16px;
+    }
 }

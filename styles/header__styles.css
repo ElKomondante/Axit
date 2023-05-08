@@ -1,4 +1,5 @@
 .header{
+    width: 100%;
     height: 76px;
     background-color: black;
     margin: 0 auto;
@@ -11,6 +12,42 @@
     height: 75px;
     display: flex;
     margin-left: 770px;
+
+}
+
+.header2_logo{
+    display: none;
+}
+@media (max-width:900px) {
+    .header2_logo{
+        display: block;
+        width: 24px;
+        height: 18px;
+        display: flex;
+        margin-top: 30px;
+        margin-right: 10px;
+    }
+}
+@media (max-width:650px) {
+    .header2_logo{
+        display: block;
+        width: 24px;
+        height: 18px;
+        display: flex;
+        margin-top: 30px;
+        margin-right: 10px;
+    }
+}
+
+@media (max-width:1538px) {
+    .header_menu{
+        margin-left: 1px;
+    }
+}
+@media (max-width:900px) {
+    .header_menu{
+        display: none;
+    }
 }
 .header_menu_nav{
 color: white;
